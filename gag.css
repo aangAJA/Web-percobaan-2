@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg,rgb(102, 174, 202), rgb(29, 135, 222));
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    text-align: center;
+    background-image: url(vecteezy_vector-illustration-of-the-black-map-of-indonesia-on-white_13212017.jpg);
+    background-size: 2000px;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+pre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Gradient</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .bg-gradient {
+            background: linear-gradient(270deg, rgb(102, 174, 202), rgb(29, 135, 222));
+            background-size: 400% 400%;
+            animation: gradient 10s ease infinite;
+        }
+    </style>
+</head>
+<body class="h-screen m-0 overflow-hidden">
+    <div class="bg-gradient absolute inset-0 flex items-center justify-center text-center bg-cover bg-no-repeat" style="background-image: url('vecteezy_vector-illustration-of-the-black-map-of-indonesia-on-white_13212017.jpg'); background-size: 2000px;">
+        <h1 class="font-sans text-4xl">Merah Putih untuk Pertiwi</h1>
+        <br>
+        <pre class="font-sans text-lg"> guratan tinta emas dalam kertas bekas
+            memori masa kelam terlintas
+            dalam balutan darah mengenang
+            melaju melewati masa menjadi kenangan
+            maksud terbuai dalam hati yang luluh
+            <u>kisah puluhan tahun yang beradu dalam peluh</u>
+            <u>rasanya hati berdayun-dayun</u>
+            <strike>Kertas bekas waktu menjadi rapuh</strike>
+            <b>Merdeka! Diriingi Indonesia raya yang menggema</b>
+            air mata yang siap meluncur kapan saja
+            penantian di penghujung usia
+            akhir kata yang menjadi lega seluruh warga bumiputra</pre>
+    </div>
+</body>
+</html>

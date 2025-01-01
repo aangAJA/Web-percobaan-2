@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <title>Document</title>
+</head>
+<body class="bg-gray-100">
+
+    <nav class="flex justify-between items-center bg-gray-800 p-4 mb-6">
+        <div class="logo">
+            <h2 class="text-white">Menu</h2>
+        </div>
+        <ul class="flex space-x-4">
+            <li><a href="soal3.html" class="text-white hover:text-gray-300">Home</a></li>
+            <li><a href="soal4.html" class="text-white hover:text-gray-300">Profil</a></li>
+            <li><a href="galeti.html" class="text-white hover:text-gray-300">Galeri</a></li>
+            <li><a href="form.html" class="text-white hover:text-gray-300">Kontak</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container mx-auto p-6 bg-white rounded shadow-md">
+        <h2 class="text-2xl font-bold mb-4">Kontak Kami</h2>
+        <p class="mb-6">Silahkan tinggalkan pesan anda, pada kolom yang tersedia.</p>
+        <form>
+            <div class="mb-4">
+                <label for="nama" class="block text-gray-700">Nama Anda:</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan Nama" class="mt-1 block w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-blue-500">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700">E-mail Anda:</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan Email" class="mt-1 block w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-blue-500">
+            </div>
+            <div class="mb-4">
+                <label for="pesan" class="block text-gray-700">Pesan Anda:</label>
+                <textarea id="pesan" name="pesan" placeholder="Tulis pesan anda disini..." class="mt-1 block w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-blue-500"></textarea>
+            </div>
+            <input type="submit" value="POST" class="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 cursor-pointer">
+        </form>
+    </div>
+</body>
+</html>
